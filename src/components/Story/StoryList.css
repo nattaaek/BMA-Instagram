@@ -1,0 +1,21 @@
+/* StoryList.css */
+
+.story-list {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    padding: 10px;
+    background-color: black;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+  .story-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  .story-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  

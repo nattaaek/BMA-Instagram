@@ -1,0 +1,40 @@
+.story-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .story-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .story-avatar-wrapper {
+    position: relative;
+    border: 2px solid purple;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .story-avatar-canvas {
+    display: none; /* I'm hiding the canvas since it wasn't displayed in the image you provided */
+  }
+  
+  .story-avatar img {
+    display: block;
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+  }
+  
+  .story-username {
+    margin-top: 8px;
+    color: white; /* Assuming white color for the text based on the image provided */
+    font-weight: bold;
+  }
+  
